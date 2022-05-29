@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Random Password Generator</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+        <script src="box.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <h1>Random Password Generator</h1>
+        </header>
+        <nav id="bodynav">
+            <div><a href="index.html">Main</a></div>
+            <div><a href="gallery.html">Project Gallery</a></div>
+            <div><a href="box.html">Random Password Generator</a></div>
+            <div><a href="contact.html">Contact</a></div> 
+        </nav>
+        <main>
+        <div class="box">
+            <input type="text" placeholder="Create Password" id="password" readonly>
+            <!--Create Button--> 
+            <table>
+                <th><div id="button1" class="btn1" 
+                onclick="genPassword()">Generate</div></th>
+                <th><div id="button1" class="btn2" 
+                onclick="copyPassword()">Copy</div></th>
+            </table>
+        </div>  
+    </main>
+    <footer>
+		<nav id="footernav">
+			<ul>
+				<li><a href="index.html">Main</a></li>
+				<li><a href="gallery.html">Project Gallery</a></li>
+                <li><a href="box.html">Random Password Generator</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+    </body>
+</html>
